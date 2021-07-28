@@ -1,0 +1,51 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    background-color: grey;
+}
+
+#main_calc
+{
+    width:100vw;
+    height: 100vh;
+    background: ivory;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#result
+{
+    width: 100%;
+    height: 40%;
+}
+
+#number
+{
+    background: khaki;
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#number > div
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:100%;
+}
+
+
+#number > div > button
+{
+    width: 100%;
+    height: 100%;
+}
